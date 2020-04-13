@@ -15,7 +15,7 @@ import java.util.Random;
 
 */
 
-public class Person {
+public abstract class Person {
   // the persons fate depends on some random variables...
   private Random random = new Random();
 
@@ -91,7 +91,6 @@ public class Person {
 
 	}
 
-  void tryToMove(){
 		tryToMoveRandomly();
 	}
   /**
