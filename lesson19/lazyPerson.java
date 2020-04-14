@@ -5,7 +5,7 @@ public class LazyPerson extends Person {
 	//use the tick to track the time
 	private int tick = 0;
 
-	public lazyPerson() {
+	public LazyPerson() {
 		super();
 	}
 
